@@ -1,0 +1,6 @@
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #000, transparent);
+}
+

@@ -1,0 +1,120 @@
+.FirstPost {
+    flex-grow: 100;
+    width: 100%;
+    background-color: #c5c6c84b;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+  .FirstPost:hover{
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+  }
+  .FirstPost > h2 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: xx-large;
+    position: relative;
+    top: 4%;
+  }
+  .FirstPost > img {
+    width: 95%;
+    height: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+  }
+  .FirstPost > h4 {
+    width: 90%;
+    bottom: 25%;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+  }
+  .FirstPost > span {
+    margin-left: 5%;
+    font-size: 14px;
+    position: relative;
+    bottom: 30%;
+  }
+  
+  .PostPreview {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+  }
+  .PostPreview:hover {
+    background-color: rgb(231, 231, 231);
+    cursor: pointer;
+  }
+  .PostPreview > h2 {
+    padding-left: 22.5%;
+    width: 77.5%;
+    top: -10px;
+    font-family: "Arial", sans-serif;
+    font-size: 17px;
+    position: relative;
+  }
+  .PostPreview > img {
+    width: 100px;
+    height: 100%;
+    margin-left: 5%;
+    top: 0px;
+    left: 0;
+    position: absolute;
+  }
+  .PostPreview > h4 {
+    width: 77.5%;
+    bottom: 40%;
+    font-size: 14px;
+    padding-left: 22.5%;
+    position: relative;
+  }
+  .PostPreview > span {
+    left: 22.5%;
+    font-size: 12px;
+    position: absolute;
+    bottom: 1%;
+  }
+  .PostPreview > hr {
+    position: absolute;
+    bottom: -15%;
+    width: 100%;
+    left: 0px;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #000, transparent);
+  }
+  
+  @media screen and (max-width: 620px) {
+    .FirstPost > h2 {
+      font-size: x-large;
+    }
+  
+    .PostPreview > h4 {
+      font-size: 12px;
+      padding-left: 27.5%;
+    }
+    .PostPreview > h2 {
+      font-size: medium;
+      padding-left: 27.5%;
+    }
+    .PostPreview > span {
+      font-size: 10px;
+      left: 27.5%;
+    }
+  }
+  

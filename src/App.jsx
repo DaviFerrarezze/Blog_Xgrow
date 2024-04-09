@@ -1,16 +1,15 @@
 import React from "react";
 import "./App.css";
 import RoutesFunction from "./Routes/routes";
-
+import Header from './Header'
 
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+       <Header />
        <RoutesFunction/>
-      </header>
     </div>
   );
 }
