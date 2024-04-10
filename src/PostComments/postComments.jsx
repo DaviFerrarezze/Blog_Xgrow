@@ -1,24 +1,37 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import Comments from "./../AllComments";
 import "./postComments.css";
 
-function PostComments() {
+function Post_Comments() {
   const { id } = useParams();
+  const postId = parseInt(id);
   const comments = Comments();
-  const filterComments = comments.filter((comment) => comment.post_id === id);
+
+  const filterComments = comments.filter(
+    (comment) => comment.post_id === postId
+  );
 
   const postComments = filterComments.map((comment) => (
-    <div>
-      <h1>{comment.email}</h1>
+    <div className="PostComments">
+      <h5>
+        <span className="CommentInfo">Usuário:</span> {comment.username} |{" "}
+        {comment.email}
+      </h5>
+      <p>
+        <span className="CommentInfo">Comentário:</span> {comment.comment}
+      </p>
+      <div className="image">
+        <img src={comment.avatar} alt="" />
+      </div>
     </div>
   ));
 
   return (
-    <div className="PostComments">
+    <div>
       <h3>Comentários</h3>
       {postComments}
     </div>
   );
 }
 
-export default PostComments;
+export default Post_Comments;
