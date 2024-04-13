@@ -12,7 +12,7 @@ function Post_Comments() {
   );
 
   const postComments = filterComments.map((comment) => (
-    <div className="PostComments">
+    <div className="PostComment">
       <h5>
         <span className="CommentInfo">Usuário:</span> {comment.username} |{" "}
         {comment.email}
@@ -27,7 +27,7 @@ function Post_Comments() {
   ));
 
   return (
-    <div>
+    <div className="PostComments">
       <h3>Comentários</h3>
       {postComments}
     </div>

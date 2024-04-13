@@ -2,7 +2,7 @@
     flex-grow: 100;
     width: 100%;
     background-color: #c5c6c84b;
-    height: 300px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -22,14 +22,14 @@
   }
   .FirstPost > img {
     width: 95%;
-    height: 70%;
+    height: 80%;
     margin-left: 5%;
     margin-right: 5%;
     position: relative;
   }
   .FirstPost > h4 {
     width: 90%;
-    bottom: 25%;
+    bottom: 20%;
     font-size: 17px;
     margin-left: 5%;
     margin-right: 5%;
@@ -39,7 +39,7 @@
     margin-left: 5%;
     font-size: 14px;
     position: relative;
-    bottom: 30%;
+    bottom: 25%;
   }
   
   .PostPreview {
@@ -47,7 +47,7 @@
     width: 100%;
     background-color: white;
     height: 100px;
-    align-items: center;
+
     justify-content: center;
     position: relative;
     box-sizing: border-box;
@@ -61,7 +61,7 @@
     cursor: pointer;
   }
   .PostPreview > h2 {
-    padding-left: 22.5%;
+    padding-left: 130px;
     width: 77.5%;
     top: -10px;
     font-family: "Arial", sans-serif;
@@ -80,14 +80,15 @@
     width: 77.5%;
     bottom: 40%;
     font-size: 14px;
-    padding-left: 22.5%;
+    padding-left: 130px;
     position: relative;
   }
   .PostPreview > span {
-    left: 22.5%;
+    width: 77.5%;
+    padding-left: 130px;
     font-size: 12px;
-    position: absolute;
-    bottom: 1%;
+    position: relative;
+    bottom: 40%;
   }
   .PostPreview > hr {
     position: absolute;
@@ -106,15 +107,16 @@
   
     .PostPreview > h4 {
       font-size: 12px;
-      padding-left: 27.5%;
+      padding-left: 130px;
     }
     .PostPreview > h2 {
       font-size: medium;
-      padding-left: 27.5%;
+      padding-left: 130px;
     }
     .PostPreview > span {
       font-size: 10px;
-      left: 27.5%;
+      padding-left: 130px;
     }
   }
+
   
