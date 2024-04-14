@@ -6,6 +6,7 @@
   height: 100%;
   position: relative;
   text-align: center;
+  margin-top: 40px;
 }
 .Post > h1 {
   font-family: "Arial", sans-serif;

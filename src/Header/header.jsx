@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return( 
+    <div>
     <header className="Header">
       <Link to={`/`} style={{ textDecoration: "none" }}>
         <div className='Button'>
@@ -17,10 +18,12 @@ function Header() {
         </Link>
         <Link to={`/Register/`} style={{ textDecoration: "none" }}>
         <div className='Button'>
-          <h3>Registrar-se</h3>
+          <h3>Registre-se</h3>
         </div>
       </Link>
     </header>
+    <h5 className="HeaderText">Blog-K12</h5>
+    </div>
     )
 }
 

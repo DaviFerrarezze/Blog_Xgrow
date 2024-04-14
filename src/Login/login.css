@@ -2,27 +2,27 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    
 }
 
 .Login {
     width: 100%;
-    height: 60vh;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+    align-items: center
 }
 
 .LoginInputs{
     width: 250px;
     height: 40px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 2.5px;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .LoginButton {
@@ -30,18 +30,33 @@ body {
     height: 40px;
     font-size: 16px;
     border-radius: 5px;
-    margin-bottom: 5px;
-    background-color: black;
+    margin-top: 10px;
+    background-color: #202833;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.LoginButton:hover{
+    background-color: #C5C6C8;
+    cursor: pointer;
+}
 .LoginButton > h2 {
-    color: aliceblue;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .LoginText {
     font-size: xx-large;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.Login > h5 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 205px;
 }
