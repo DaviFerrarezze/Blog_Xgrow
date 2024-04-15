@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
-import Comments from "./../AllComments";
+import Comments from "./../ExtractComments";
 import "./postComments.css";
 
 function Post_Comments() {

@@ -62,8 +62,8 @@
     cursor: pointer;
   }
   .PostPreview > h2 {
-    padding-left: 130px;
-    width: 77.5%;
+    padding-left: 140px;
+    width: 82.5%;
     top: -10px;
     font-family: "Arial", sans-serif;
     font-size: 17px;
@@ -78,18 +78,18 @@
     position: absolute;
   }
   .PostPreview > h4 {
-    width: 77.5%;
+    padding-left: 140px;
+    width: 82.5%;
     bottom: 40%;
     font-size: 14px;
-    padding-left: 130px;
     position: relative;
   }
   .PostPreview > span {
-    width: 77.5%;
-    padding-left: 130px;
+    padding-left: 140px;
+    width: 82.5%;
     font-size: 12px;
     position: relative;
-    bottom: 40%;
+    bottom: 55%;
   }
   .PostPreview > hr {
     position: absolute;

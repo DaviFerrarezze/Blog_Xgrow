@@ -60,3 +60,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 205px;
 }
+
+.Error {
+  color: red;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 0px;
+}
