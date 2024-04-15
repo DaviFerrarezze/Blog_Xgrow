@@ -1,3 +1,5 @@
+//Pagina principal / Pagina de inicio com as previas de cada post
+
 import React from "react";
 import "./homePage.css";
 import Previews from './../PostsPreview'

@@ -1,3 +1,5 @@
+//previas dos posts que serao exibinas na home page
+
 import React from "react";
 import Posts from "./../ExtractPosts";
 import "./postsPreviews.css";

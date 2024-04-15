@@ -1,3 +1,5 @@
+//Post para pagina individual
+
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import Posts from "./../ExtractPosts";
 import './post.css'

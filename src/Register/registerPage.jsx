@@ -1,3 +1,5 @@
+//pagina para se registrar
+
 import React, { useState } from "react";
 import './register.css'
 import { Link } from "react-router-dom";
@@ -44,7 +46,7 @@ function RegisterPage() {
             <h5>Nome:</h5>
             <input type="text" className="RegisterInputs" placeholder="Nome..." value={name} onChange={nameChange}/>
             <h5>Email:</h5>
-            <input type="text" className="RegisterInputs" placeholder="Emai..." value={email} onChange={emailChange}/>
+            <input type="text" className="RegisterInputs" placeholder="Email..." value={email} onChange={emailChange}/>
             {error && <p className="Error">{error}</p>}
             <register />
             <h5>Senha:</h5>

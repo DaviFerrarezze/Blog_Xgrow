@@ -1,3 +1,5 @@
+// Extrair os comentários do JSON
+
 import { useEffect, useState } from "react";
 
 function Comments() {

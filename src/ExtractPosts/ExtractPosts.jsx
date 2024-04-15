@@ -1,3 +1,6 @@
+// Extrair os posts do JSON
+
+
 import { useEffect, useState } from "react";
 
 function Posts() {

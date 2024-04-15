@@ -1,3 +1,5 @@
+//pagina de post 
+
 import './postPage.css';
 import PostComments from './../PostComments';
 import Post from './../Post'
