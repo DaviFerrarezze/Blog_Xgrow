@@ -1,4 +1,4 @@
-//filtragem dos comentarios para post indiviual aberto
+//filtragem dos comentarios para post indiviual
 
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import Comments from "./../ExtractComments";
